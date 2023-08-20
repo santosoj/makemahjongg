@@ -35,7 +35,7 @@ values for `resample` are keys into PIL's
 [Image.Resampling](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#filters) enum.
 
 Parameters are separated by double underscore. If someone expanded on the
-[`parseparams`](src/makemahjongg/tileutil.py#120) function and added e.g. a *flip* parameter with values of
+[`parseparams`](src/makemahjongg/tileutil.py#L120) function and added e.g. a *flip* parameter with values of
 *horizontal*, *vertical*, a filename such as
 
 &emsp;`31-childlike_empress__resample_NEAREST__flip_horizontal.png`
