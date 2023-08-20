@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "makemahjongg"
+version = "0.1.0"
+description = "Tileset creator for GNOME Mahjongg"
+readme = "src/README.md"
+authors = [
+  { name = "Jonas Santoso", email = "santojo@pm.me" },
+]
+dependencies = [
+  "Pillow == 9.5.0",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/santosoj/makemahjongg"
+
+[project.scripts]
+makemahjongg = "makemahjongg.__main__:main"
